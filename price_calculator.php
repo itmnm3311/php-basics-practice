@@ -5,7 +5,7 @@ $quantity = 2;
 $tax_rate = 0.1;
 
 $subtotal = $price * $quantity;
-$tax = $subtotal * (1 + $tax_rate);
+$tax = $subtotal * $tax_rate;
 $total = $subtotal + $tax;
 
 echo "商品名: $product_name <br>"; 
